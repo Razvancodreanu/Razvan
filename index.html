@@ -23,6 +23,32 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
+
+        .servicii {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .buton-serviciu {
+            background-color: #333;
+            color: #ffd700;
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, background-color 0.3s;
+            min-width: 250px;
+            text-align: center;
+        }
+
+        .buton-serviciu:hover {
+            background-color: #444;
+            transform: translateY(-5px);
+        }
     </style>
 </head>
 
@@ -31,12 +57,19 @@
     <p>Suntem specializați în confecții metalice de calitate, cu experiență de peste 20 de ani. Oferim servicii rapide
         și profesionale pentru orice proiect metalic.</p>
     <h2>Serviciile noastre:</h2>
-    <ul>
-        <li>Sudură și asamblare structuri metalice</li>
-        <li>Tâmplărie metalică</li>
-        <li>Reparații și întreținere echipamente metalice</li>
-        <li>Confecții personalizate la comandă</li>
-    </ul>
+    <div class="servicii">
+        <a href="sudura.html" class="buton-serviciu">Sudură și asamblare structuri metalice</a>
+        <a href="tamplarie.html" class="buton-serviciu">Tâmplărie metalică</a>
+        <a href="reparatii.html" class="buton-serviciu">Reparații și întreținere echipamente metalice</a>
+        <a href="confecții.html" class="buton-serviciu">Confecții personalizate la comandă</a>
+    </div>
+
+    <a href="sudura.html" class="buton-serviciu">Sudură și asamblare structuri metalice</a>
+    <a href="tamplarie.html" class="buton-serviciu">Tâmplărie metalică</a>
+    <a href="reparatii.html" class="buton-serviciu">Reparații și întreținere echipamente metalice</a>
+    <a href="confecții.html" class="buton-serviciu">Confecții personalizate la comandă</a>
+    </div>
+
 
     <p>Contactați-ne: <a href="mailto:west_flo70@yahoo.com">west_flo70@yahoo.com</a> | Tel: 0771 623 831</p>
 
