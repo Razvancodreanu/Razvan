@@ -83,6 +83,28 @@
             line-height: 1.8;
             margin-bottom: 30px;
         }
+
+        .metalic {
+            font-size: 1.3em;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
+            background: linear-gradient(90deg, #d4d4d4, #a0a0a0, #d4d4d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: stralucire 3s infinite linear;
+        }
+
+        @keyframes stralucire {
+            0% {
+                background-position: 0%
+            }
+
+            100% {
+                background-position: 100%
+            }
+        }
     </style>
 
 </head>
@@ -90,9 +112,11 @@
 <body>
     <main>
         <h1>Niponn General Company</h1>
-        <p>Suntem specializați în confecții metalice de calitate, cu experiență de peste 20 de ani. Oferim servicii
-            rapide
-            și profesionale pentru orice proiect metalic.</p>
+        <p class="metalic">
+            Suntem specializați în confecții metalice de calitate, cu experiență de peste 20 de ani. Oferim servicii
+            rapide și profesionale pentru orice proiect metalic.
+        </p>
+
         <h2>Serviciile noastre:</h2>
         <div class="servicii">
             <a href="sudura.html" class="buton-serviciu">Sudură și asamblare structuri metalice</a>
